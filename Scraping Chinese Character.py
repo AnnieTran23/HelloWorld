@@ -44,4 +44,9 @@ for rows in range(1,101):
     print(hanzilist[count]+ " " +pinyin[count])
     count+= 1
 
-          
+# normally to checkout a branch you just do git checkout branch_name
+
+# when you try to develop something new ==== you never develop on main branch 
+# NEVER WORK ON MAIN BRANCH
+# first go to your main branch and pull the latest code 
+# now you create a new branch from the latest code === git checkout -b feature/add_object
